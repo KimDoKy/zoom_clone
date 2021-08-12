@@ -17,6 +17,8 @@
 $ npm i nodemon -D
 ```
 
+> 변경사항이 있을시 서버를 재시작
+
 ### install babel
 
 ```bash
@@ -33,6 +35,8 @@ $ npm i @babel/core @babel/cli @babel/node @babel-preset-env -D
     "exec": "babel-node src/server.js"
 }
 ```
+
+> 작성한 코드를 NodeJS로 컴파일시 그 작업을 src/server.js 파일에 진행
 
 ```json
 # babel.config.json
@@ -69,3 +73,7 @@ $ npm i pug
 ```bash
 $ npm run dev
 ```
+
+### run process
+
+npm run dev -> nodemon -> babel-node -> babel.config.json -> exec preset
