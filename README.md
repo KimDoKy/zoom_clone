@@ -22,7 +22,7 @@ $ npm i nodemon -D
 ### install babel
 
 ```bash
-$ npm i @babel/core @babel/cli @babel/node @babel-preset-env -D
+$ npm i @babel/core @babel/cli @babel/node @babel/preset-env -D
 ```
 
 ### setup files
