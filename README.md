@@ -77,3 +77,11 @@ $ npm run dev
 ### run process
 
 npm run dev -> nodemon -> babel-node -> babel.config.json -> exec preset
+
+---
+
+### install socket.io
+
+```bash
+$ npm i socket.io
+```
