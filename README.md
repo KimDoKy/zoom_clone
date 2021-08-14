@@ -85,3 +85,11 @@ npm run dev -> nodemon -> babel-node -> babel.config.json -> exec preset
 ```bash
 $ npm i socket.io
 ```
+
+### install socket.io - admin panel
+
+```bash
+$ npm i @socket.io/admin-ui
+```
+
+https://admin.socket.io/
