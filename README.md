@@ -93,3 +93,16 @@ $ npm i @socket.io/admin-ui
 ```
 
 https://admin.socket.io/
+
+### install localutnnel
+
+로컬 서버를 public으로(일시적으로)
+
+```bash
+$ npm i -g localtunnel
+```
+
+```bash
+# run
+$ lt --port 3000
+```
